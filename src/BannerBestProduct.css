@@ -1,0 +1,11 @@
+.bannerBestProduct {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerBestProduct > img {
+  margin: 5%;
+  width: 80%;
+  object-fit: contain;
+}

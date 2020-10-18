@@ -1,0 +1,11 @@
+.bannerBestOfMonth {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerBestOfMonth > img {
+  margin-top: 5%;
+  width: 96%;
+  object-fit: contain;
+}

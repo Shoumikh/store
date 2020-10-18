@@ -1,0 +1,71 @@
+.navbarTop {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.navbarTop__left {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+}
+.navbarTop__middle {
+  display: flex;
+  padding: 10px;
+  flex: 5;
+}
+
+.navbarTop__middle > p {
+  padding: 10px;
+}
+.navbarTop__middle > p:hover {
+  cursor: pointer;
+}
+
+.navbarTop__right {
+  flex: 4;
+  display: flex;
+  align-items: center;
+}
+
+.navbarTop__rightHeart,
+.navbarTop__rightCart {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 999px;
+  margin: 0px 20px;
+}
+
+.navbarTop__right > button {
+  padding: 10px 20px;
+  background-color: rgb(68, 78, 214);
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.navbarTop__right > input {
+  padding: 10px 5px;
+  border: none;
+  background: transparent;
+  outline-width: 0;
+  align-items: center;
+}
+
+.navbarTop__rightSearch {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: 10px 5px;
+  border-radius: 25px;
+  color: gray;
+}
+
+.navbarTop__right > button {
+  float: right;
+  width: auto;
+}
+
+.navbarTop__right > button :hover {
+  cursor: pointer;
+}
